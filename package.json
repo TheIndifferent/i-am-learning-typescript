@@ -2,5 +2,12 @@
   "name": "i-am-learning-typescript",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "tsyringe": "^4.0.1"
+  }
 }
