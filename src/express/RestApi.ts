@@ -13,6 +13,8 @@ export class RestApi {
 
   public startServer() {
     const router = express();
+    router.use('/v0', this.restApiV0.routesV0());
+
     const server = http.createServer(router);
     server.listen(PORT, this.serverStarted);
   }
