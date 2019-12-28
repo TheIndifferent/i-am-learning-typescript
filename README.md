@@ -6,9 +6,9 @@ This project is set to learn some TypeScript frameworks and integration between 
 
 ## Steps
 
-- [X] plain Yarn project
-- [X] TypeScript
-- [ ] Tsyringe
+- [x] plain Yarn project
+- [x] TypeScript
+- [x] Tsyringe
 - [ ] Express.js
 - [ ] Express.js where subroutes injected with Tsyringe
 - [ ] TypeORM
