@@ -1,11 +1,11 @@
 import "reflect-metadata";
 import {container} from "tsyringe";
 // project imports:
-import {RestApi} from "./express/RestApi";
+import {WebApp} from "./express/WebApp";
 
 function main() {
-  const restApi = container.resolve(RestApi);
-  restApi.startServer();
+  const webApp = container.resolve(WebApp);
+  webApp.startServer();
 }
 
 main();

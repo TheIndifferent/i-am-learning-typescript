@@ -10,5 +10,5 @@ This project is set to learn some TypeScript frameworks and integration between 
 - [x] TypeScript
 - [x] Tsyringe
 - [x] Express.js
-- [ ] Express.js where subroutes injected with Tsyringe
+- [x] Express.js where subroutes injected with Tsyringe
 - [ ] TypeORM
