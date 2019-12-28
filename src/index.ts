@@ -5,7 +5,7 @@ import {RestApi} from "./express/RestApi";
 
 function main() {
   const restApi = container.resolve(RestApi);
-  restApi.callDelegate();
+  restApi.startServer();
 }
 
 main();
