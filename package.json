@@ -9,5 +9,9 @@
   },
   "dependencies": {
     "tsyringe": "^4.0.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
   }
 }

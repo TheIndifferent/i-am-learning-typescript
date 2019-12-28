@@ -1,3 +1,9 @@
 # IntelliJ:
 .idea/
 *.iml
+
+# node:
+node_modules/
+
+# output dir:
+dist/
